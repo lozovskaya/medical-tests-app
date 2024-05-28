@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_test_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Test name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_test_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Result">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of taking the test">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:inputType="date"
+            android:onClick="showDatePicker" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_reference_value_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reference value MIN">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_reference_value_min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_reference_value_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reference values MAX">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_reference_value_max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_units"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Units">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_units"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comments (optional)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

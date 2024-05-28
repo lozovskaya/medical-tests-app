@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Medical Tests</string>
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_history">History</string>
+    <string name="title_login">Login</string>
+    <string name="title_sign_up">Sign up</string>
+    <string name="title_graphs">Graphs</string>
+    <string name="upload_a_pdf_file">Upload a PDF File</string>
+    <string name="date">"Date: "</string>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
